@@ -326,10 +326,11 @@ packages:
   package_info_plus:
     dependency: "direct main"
     description:
-      name: package_info_plus
-      sha256: b93d8b4d624b4ea19b0a5a208b2d6eff06004bc3ce74c06040b120eeadd00ce0
-      url: "https://pub.dev"
-    source: hosted
+      path: "packages/package_info_plus/package_info_plus"
+      ref: "Chralu/issue3028"
+      resolved-ref: "541c4854ea889aac31be3bd1aba166ea76337162"
+      url: "git@github.com:Chralu/plus_plugins.git"
+    source: git
     version: "8.0.0"
   package_info_plus_platform_interface:
     dependency: transitive
