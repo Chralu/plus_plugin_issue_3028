@@ -17,7 +17,7 @@ dependencies:
   http: ^1.2.0
 
   # Flutter plugin for querying information about the application package, such as CFBundleVersion on iOS or versionCode on Android
-  package_info_plus: ^6.0.0
+  package_info_plus: ^8.0.0
 
 dev_dependencies:
   build_runner: ^2.4.5
