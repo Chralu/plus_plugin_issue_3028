@@ -1,0 +1,32 @@
+name: issue_3028_demo
+description: Demo to issue https://github.com/fluttercommunity/plus_plugins/issues/3028
+
+publish_to: "none"
+
+version: 0.0.1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.22.2"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # A composable, multi-platform, Future-based API for HTTP requests
+  http: ^1.2.0
+
+  # Flutter plugin for querying information about the application package, such as CFBundleVersion on iOS or versionCode on Android
+  package_info_plus: ^6.0.0
+
+dev_dependencies:
+  build_runner: ^2.4.5
+
+# The following section is specific to Flutter.
+flutter:
+  generate: true
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true

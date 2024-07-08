@@ -1,0 +1,10 @@
+{
+  "name": "Issue example",
+  "description": "Issue example",
+  "version": "0.0.1",
+  "action": {
+    "default_title": "Issue example",
+    "default_popup": "index.html"
+  },
+  "manifest_version": 3
+}
