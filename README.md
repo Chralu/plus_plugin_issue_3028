@@ -5,7 +5,7 @@
 1. Build
 
 ```sh
-flutter build web
+flutter build web --web-renderer html --csp
 ```
 
 2. Open Firefox browser. Go to url `about:debugging#/runtime/this-firefox`
